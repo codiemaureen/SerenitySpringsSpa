@@ -28,6 +28,15 @@ code {
   border-bottom: 15px solid rgb(0, 26, 0);
 }
 
+.heading{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-top: 10rem;
+  color: aliceblue;
+  font-size: 5em;
+  text-shadow: black 2px 0 10px;
+}
 .navBar {
   display: flex;
   min-width: 100vw;
