@@ -50,8 +50,3 @@ code {
   margin: auto;
 }
 
-.footer {
-  display: flex;
-  padding-top: 30vh;
-  justify-content: center;
-}

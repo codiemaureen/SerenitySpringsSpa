@@ -1,6 +1,10 @@
+.footer{
+ padding-top: 20vh;
+ min-width: 40vw;
+}
+
 .iconCredit{
- width: 100%;
  display: flex;
  justify-content: center;
- border: 10px solid wheat;
+ padding-top: 10vh;
 }
