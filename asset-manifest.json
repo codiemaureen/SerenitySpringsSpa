@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/SerenitySpringsSpa/static/css/main.84029da8.css",
-    "main.js": "/SerenitySpringsSpa/static/js/main.c226de46.js",
+    "main.js": "/SerenitySpringsSpa/static/js/main.299a8538.js",
     "static/js/453.7fcfe6d9.chunk.js": "/SerenitySpringsSpa/static/js/453.7fcfe6d9.chunk.js",
     "static/media/SerenitySpringsHeader.jpg": "/SerenitySpringsSpa/static/media/SerenitySpringsHeader.e6132f6eda51bd815d94.jpg",
     "index.html": "/SerenitySpringsSpa/index.html",
     "main.84029da8.css.map": "/SerenitySpringsSpa/static/css/main.84029da8.css.map",
-    "main.c226de46.js.map": "/SerenitySpringsSpa/static/js/main.c226de46.js.map",
+    "main.299a8538.js.map": "/SerenitySpringsSpa/static/js/main.299a8538.js.map",
     "453.7fcfe6d9.chunk.js.map": "/SerenitySpringsSpa/static/js/453.7fcfe6d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84029da8.css",
-    "static/js/main.c226de46.js"
+    "static/js/main.299a8538.js"
   ]
 }
