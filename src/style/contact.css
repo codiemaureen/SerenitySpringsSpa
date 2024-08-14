@@ -1,5 +1,17 @@
-.contactForm{
+.contactForm {
  margin: auto;
  display: flex;
  justify-content: center;
+}
+
+.field{
+ display: block;
+}
+
+button {
+ width: 100%;
+ background-color: darkgreen;
+ border: none;
+ border-radius: 6px;
+ font-weight: 600;
 }
