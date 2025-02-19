@@ -1,0 +1,25 @@
+nav{
+ background-color: white;
+ color: black;
+ font-weight: bold;
+ display: flex;
+ min-width: 100%;
+}
+
+ol{
+ display: flex;
+ list-style: none;
+ text-transform: uppercase;
+ flex: 1;
+ justify-content: center;
+ border-left: 2px solid lightgrey;
+}
+
+ol:first-child{
+ border-left: none;
+}
+
+li:hover{
+ cursor: pointer;
+}
+
