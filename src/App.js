@@ -1,8 +1,10 @@
+import Header from "./components/Header";
+import './index.css';
+
 function App() {
   return (
     <div className="App">
-      <h1>Serenty Spa
-      </h1>
+      <Header />
     </div>
   );
 }
