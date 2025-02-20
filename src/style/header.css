@@ -1,4 +1,8 @@
+
+
 section{
+ position: fixed;
+ z-index: 2000;
  min-width: 100%;
  min-height: 25rem;
  background-image: url(../images/SerenitySpringsHeader.jpg);
