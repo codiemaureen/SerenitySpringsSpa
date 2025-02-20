@@ -19,7 +19,24 @@ ol:first-child{
  border-left: none;
 }
 
+li{
+ /* justify-content: center; */
+ padding: 0 15%;
+ margin: 0;
+}
+
 li:hover{
  cursor: pointer;
+}
+
+h1{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ font-size: 5rem;
+ font-family: "MS Madi",
+  serif;
+ font-weight: normal;
+ color: white;
 }
 
