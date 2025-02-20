@@ -1,0 +1,34 @@
+#aboutContainer{
+ margin-top: 25rem;
+ position: absolute;
+ display: flex;
+ background-color: lightgray;
+ /* border: 1px solid pink; */
+}
+
+.about{
+ max-width: 50%;
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ /* border: 15px solid pink; */
+}
+
+h2{
+ font-size: 2rem;
+ margin-bottom: 0;
+ /* border: 1px solid red; */
+}
+
+p{
+  /* border: 1px solid red; */
+  font-size: 2rem;
+  max-width: 30%;
+
+}
+
+img {
+ padding-left: 1em;
+ margin: 4%;
+}
