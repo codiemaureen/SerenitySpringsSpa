@@ -1,0 +1,11 @@
+a, a:visited{
+ text-decoration: none;
+ color: white;
+}
+
+
+
+.btn {
+ all: unset;
+ background-color: transparent;
+}
