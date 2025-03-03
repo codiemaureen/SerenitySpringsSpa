@@ -1,0 +1,10 @@
+.flex-container{
+ padding-top: 25rem;
+ display: flex;
+ justify-content: center;
+}
+
+.flex-items {
+ margin: 20px;
+ background-color: green;
+}
