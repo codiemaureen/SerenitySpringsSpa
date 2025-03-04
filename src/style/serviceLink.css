@@ -1,0 +1,13 @@
+.flex-container{
+ padding-top: 25rem;
+ display: flex; 
+ flex-direction: column;
+}
+
+.flex-items {
+ margin: 10px auto;
+}
+
+img{
+ border-radius: 50%;
+}
