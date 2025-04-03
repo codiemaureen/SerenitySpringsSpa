@@ -4,6 +4,7 @@ import Servicelink from "./components/Servicelink";
 import './index.css';
 import { useState } from "react";
 import aboutUsImg from '../src/images/hair.jpg'
+import Footer from "./components/Footer";
 
 function App() {
   const [services, setServices] = useState([
@@ -32,6 +33,7 @@ function App() {
       <Header />
       <Servicelink services={services}/>
       <AboutUs />
+      <Footer />
     </div>
   );
 }
