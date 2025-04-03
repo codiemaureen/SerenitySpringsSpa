@@ -1,6 +1,8 @@
 #aboutContainer{
  display: flex;
  background-color: lightgray;
+ margin: 0;
+ padding: 0;
 }
 
 .about{
@@ -11,15 +13,9 @@
  align-items: flex-end;
 }
 
-h2{
- font-size: 2rem;
- margin-bottom: 0;
-}
-
 p{
   font-size: 2rem;
   max-width: 30%;
-
 }
 
 .about-img {
