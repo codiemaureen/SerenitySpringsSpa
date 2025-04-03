@@ -1,13 +1,12 @@
-.flex-container{
- padding-top: 25rem;
- display: flex; 
+.services-container{
+ display: flex;
  flex-direction: column;
+ text-align: center;
+ padding-top: 50vh;
 }
 
-.flex-items {
- margin: 10px auto;
-}
-
-img{
- border-radius: 50%;
+.services{
+ display: flex;
+ justify-content: space-evenly;
+ margin: 10vh 0;
 }
