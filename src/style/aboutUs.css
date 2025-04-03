@@ -1,8 +1,6 @@
 #aboutContainer{
- position: absolute;
  display: flex;
  background-color: lightgray;
- /* border: 1px solid pink; */
 }
 
 .about{
@@ -24,7 +22,7 @@ p{
 
 }
 
-img {
+.about-img {
  padding-left: 1em;
  margin: 5%;
 }

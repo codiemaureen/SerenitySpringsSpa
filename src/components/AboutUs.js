@@ -8,7 +8,7 @@ const AboutUs = () => {
       <h2>About Us</h2>
       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate sed laboriosam nemo hic cum blanditiis nihil impedit facere aspernatur?</p>
     </div>
-     <img src={aboutUsImg} alt="aboutUsImg"/>
+     <img src={aboutUsImg} alt="aboutUsImg" className='about-img'/>
    </div>
   )
 }
