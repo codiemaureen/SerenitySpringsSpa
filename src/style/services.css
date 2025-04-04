@@ -2,7 +2,7 @@
   border: 2px solid green;
   display: flex;
   flex-direction: column;
-  margin: 5% 0;
+  margin: 5%;
   align-items: center;
 }
 .service-image{

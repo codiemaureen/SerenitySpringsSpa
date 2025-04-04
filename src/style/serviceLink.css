@@ -2,24 +2,20 @@
  display: flex;
  flex-direction: column;
  text-align: center;
- padding-top: 50vh;
-}
-
-.services-header{
- font-size: 3rem;
+ padding-top: 40vh;
 }
 
 .services{
  display: flex;
  justify-content: space-evenly;
- margin-top: 5vh;
 }
 
 
 @media screen and (max-width: 900px) {
  .services-container {
-   padding-top: 60vh;
+   padding-top: 40vh;
   }
+
  .services{ 
   justify-content: center;
   flex-wrap: wrap;
