@@ -19,8 +19,9 @@ a:visited{
 
 .App{
     width: 100vw;
+    overflow-x: hidden;
 }
 
 h2{
-  font-size: 3rem;
+  font-size: 2rem;
 }
