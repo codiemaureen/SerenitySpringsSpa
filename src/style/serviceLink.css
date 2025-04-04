@@ -5,6 +5,10 @@
  padding-top: 50vh;
 }
 
+.services-header{
+ font-size: 3rem;
+}
+
 .services{
  display: flex;
  justify-content: space-evenly;
