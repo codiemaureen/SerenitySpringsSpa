@@ -1,24 +1,44 @@
 #aboutContainer{
  display: flex;
+ justify-content: center;
+ min-width: 100vw;
  background-color: lightgray;
  margin: 0;
  padding: 0;
 }
 
-.about{
- max-width: 50%;
- margin: 0;
+.about-desc{
+ max-width: 10%;
+ margin: 1%;
  display: flex;
  flex-direction: column;
  align-items: flex-end;
-}
-
-p{
-  font-size: 2rem;
-  max-width: 30%;
+ font-size: 2rem;
 }
 
 .about-img {
- padding-left: 1em;
- margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin: 2% 0;
+}
+
+@media screen and (max-width: 900px) {
+  #aboutContainer{
+  flex-direction: column;
+  }
+  .about-header{
+    width: 100%;
+  }
+  .about-desc{
+    max-width: 100%;
+    text-align: center;
+    font-size: 80%;
+  }
+  .about-img {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 2% 0;
+  }
 }
