@@ -2,9 +2,11 @@
   border: 2px solid green;
   display: flex;
   flex-direction: column;
+  margin: 5% 0;
   align-items: center;
 }
 .service-image{
  padding-left: 0;
  margin: 0;
+ width: 90%;
 }
