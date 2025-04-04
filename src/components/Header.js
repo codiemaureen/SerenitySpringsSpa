@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <section id='header'>
      <NavBar/>
-      <h1>Serenity Springs Spa</h1>
+      <h1 className='page-header'>Serenity Springs Spa</h1>
     </section>
   )
 }

@@ -1,14 +1,18 @@
-
-
 section{
  position: fixed;
  z-index: 2000;
- min-width: 100%;
- min-height: 25rem;
+ width: 100vw;
+ max-height: 40rem;
  background-image: url(../images/SerenitySpringsHeader.jpg);
- background-position: center;
+ background-size: cover;
  margin: 0;
  padding: 0;
- overflow: hidden;
 }
 
+
+@media screen and (max-width: 900px) {
+ .page-header{
+  font-size: 2rem;
+  font-weight: 900;
+ }
+}

@@ -3,7 +3,8 @@ nav{
  color: black;
  font-weight: bold;
  display: flex;
- min-width: 100%;
+ width: 100vw;
+ flex-wrap: wrap;
 }
 
 ol{
@@ -13,6 +14,7 @@ ol{
  text-transform: uppercase;
  flex: 1 1 auto;
  border-left: 2px solid lightgrey;
+ 
 }
 
 ol:first-child{
