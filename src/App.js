@@ -3,7 +3,7 @@ import AboutUs from "./components/AboutUs";
 import Servicelink from "./components/Servicelink";
 import './index.css';
 import { useState } from "react";
-import aboutUsImg from '../src/images/hair.jpg'
+import aboutUsImg from '../src/images/pexels-cottonbro-3992875.jpg';
 import Footer from "./components/Footer";
 
 function App() {

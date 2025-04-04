@@ -1,4 +1,4 @@
-import aboutUsImg from '../images/hair.jpg'
+import aboutUsImg from '../images/pexels-cottonbro-3992875.jpg'
 import '../style/aboutUs.css';
 
 const AboutUs = () => {
