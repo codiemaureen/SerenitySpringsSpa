@@ -3,7 +3,9 @@ import AboutUs from "./components/AboutUs";
 import Servicelink from "./components/Servicelink";
 import './index.css';
 import { useState } from "react";
-import aboutUsImg from '../src/images/pexels-cottonbro-3992875.jpg';
+import hair from '../src/images/hair.jpg';
+import makeup from '../src/images/makeup.jpg';
+import nails from '../src/images/nails.jpg';
 import Footer from "./components/Footer";
 
 function App() {
@@ -11,19 +13,19 @@ function App() {
       {
             id: 1,
             title: "Hair",
-            image: aboutUsImg,
+            image: hair,
             description: "We do hair"
       },
         {
             id: 1,
             title: "Makeup",
-            image: aboutUsImg,
+            image: makeup,
             description: "we do makeup"
       },
         {
             id: 1,
             title: "Nails",
-            image: aboutUsImg,
+            image: nails,
             description: "we do nails"
       }
   ]);
