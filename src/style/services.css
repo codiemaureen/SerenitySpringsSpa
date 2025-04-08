@@ -4,18 +4,23 @@
   flex-direction: column;
   margin: 5%;
   align-items: center;
-  padding: 2% 0;
+  padding: 1% 0;
+}
+
+.service-title{
+  margin: 0;
 }
 .service-image{
  padding-left: 0;
  margin: 0;
- width: 90%;
- height: 70vh;
+ width: 50%;
+ height: 50%;
 }
 
 .service-description{
-  padding: 2%;
-  height: 15%;
+  padding: 0 5%;
+  min-height: 15%;
+  margin-bottom: 5%;
 }
 
 a.book-btn{
