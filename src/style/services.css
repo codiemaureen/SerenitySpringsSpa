@@ -4,9 +4,24 @@
   flex-direction: column;
   margin: 5%;
   align-items: center;
+  padding: 2% 0;
 }
 .service-image{
  padding-left: 0;
  margin: 0;
  width: 90%;
+ height: 70vh;
+}
+
+.service-description{
+  padding: 2%;
+  height: 15%;
+}
+
+a.book-btn{
+  background-color: darkgreen;
+  color: white;
+  font-weight: 800;
+  padding: 2%;
+  justify-self: flex-end;
 }
