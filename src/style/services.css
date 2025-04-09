@@ -2,9 +2,9 @@
   border: 2px solid green;
   display: flex;
   flex-direction: column;
-  margin: 5%;
+  gap: 1%;
+  margin: 1%;
   align-items: center;
-  padding: 1% 0;
 }
 
 .service-title{
@@ -14,12 +14,13 @@
  padding-left: 0;
  margin: 0;
  width: 50%;
- height: 50%;
+ height: 50vh;
 }
 
 .service-description{
-  min-height: 15%;
-  padding: 5%;
+  height: 20vh;
+  margin-bottom: 10%;
+  padding: 1%;
 }
 
 a.book-btn{
@@ -28,5 +29,5 @@ a.book-btn{
   font-weight: 800;
   padding: 2%;
   justify-self: flex-end;
-  margin: 5%;
+  margin-bottom: 5%;
 }
