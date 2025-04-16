@@ -1,10 +1,12 @@
 nav{
+ position: fixed;
  background-color: darkgreen;
  color: black;
  font-weight: bold;
  display: flex;
  width: 100vw;
  flex-wrap: wrap;
+ top: 0;
 }
 
 ol{

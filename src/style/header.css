@@ -1,10 +1,10 @@
 section{
- position: fixed;
  z-index: 2000;
  width: 100vw;
- max-height: 40rem;
- background-image: url(../images/SerenitySpringsHeader.jpg);
+ height: 60rem;
+ background-image: url(../images/pexels-heyho-7750104.jpg);
  background-size: cover;
+ background-position: 50% 50%;
  margin: 0;
  padding: 0;
 }
