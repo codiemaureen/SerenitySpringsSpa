@@ -11,8 +11,7 @@
 
 .about-desc{
   display: flex;
-  max-width: 100%;
-  font-size: 2rem; 
+  font-size: 1.5rem; 
 }
 
 .blurb-container{
@@ -21,11 +20,12 @@
 }
 
 .blurb{
-  padding: 2%;
+  padding: 10%;
 }
 
 .about-img {
-  width: 50%;
+  width: 50vw;
+  aspect-ratio: 16/9;
 }
 
 @media screen and (max-width: 900px) {
