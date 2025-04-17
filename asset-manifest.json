@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SerenitySpringsSpa/static/css/main.2dca033e.css",
+    "main.css": "/SerenitySpringsSpa/static/css/main.cf1a767d.css",
     "main.js": "/SerenitySpringsSpa/static/js/main.efe842e2.js",
     "static/js/453.7fcfe6d9.chunk.js": "/SerenitySpringsSpa/static/js/453.7fcfe6d9.chunk.js",
     "static/media/pexels-heyho-7750104.jpg": "/SerenitySpringsSpa/static/media/pexels-heyho-7750104.5972cbc431a30279c197.jpg",
@@ -9,12 +9,12 @@
     "static/media/barber-client.jpg": "/SerenitySpringsSpa/static/media/barber-client.8c55308c6b4732b14652.jpg",
     "static/media/nails.jpg": "/SerenitySpringsSpa/static/media/nails.d131bbddb9ab71d8dbe2.jpg",
     "index.html": "/SerenitySpringsSpa/index.html",
-    "main.2dca033e.css.map": "/SerenitySpringsSpa/static/css/main.2dca033e.css.map",
+    "main.cf1a767d.css.map": "/SerenitySpringsSpa/static/css/main.cf1a767d.css.map",
     "main.efe842e2.js.map": "/SerenitySpringsSpa/static/js/main.efe842e2.js.map",
     "453.7fcfe6d9.chunk.js.map": "/SerenitySpringsSpa/static/js/453.7fcfe6d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dca033e.css",
+    "static/css/main.cf1a767d.css",
     "static/js/main.efe842e2.js"
   ]
 }
