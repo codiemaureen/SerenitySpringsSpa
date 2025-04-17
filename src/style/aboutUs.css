@@ -17,19 +17,19 @@
 .blurb-container{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .blurb{
-  padding: 10%;
+  padding: 0 10%;
 }
 
 .about-img {
-  width: 50vw;
+  width: 50%;
   aspect-ratio: 16/9;
 }
 
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1070px) {
   .about-desc{
     flex-direction: column;
     align-items: center;
