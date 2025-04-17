@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+
 import AboutUs from "./components/AboutUs";
 import Servicelink from "./components/Servicelink";
 import './index.css';
@@ -7,6 +8,7 @@ import hair from '../src/images/hair.jpg';
 import makeup from '../src/images/makeup.jpg';
 import nails from '../src/images/nails.jpg';
 import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
 
 function App() {
   const [services, setServices] = useState([
@@ -32,6 +34,7 @@ function App() {
 
   return (
     <div className="App">
+      <NavBar />
       <Header />
       <Servicelink services={services}/>
       <AboutUs />

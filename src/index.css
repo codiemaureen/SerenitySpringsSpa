@@ -18,8 +18,10 @@ a:visited{
 }
 
 .App{
-    width: 100vw;
-    overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 h2{
