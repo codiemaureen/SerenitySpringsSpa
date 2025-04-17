@@ -1,12 +1,19 @@
-nav{
+#navBar{
  position: fixed;
+ z-index: 2000;
+ top: 0;
+ left: 0;
+ margin: 0; 
+}
+
+nav{
  background-color: darkgreen;
  color: black;
  font-weight: bold;
  display: flex;
  width: 100vw;
  flex-wrap: wrap;
- top: 0;
+ padding-top: 3vh;
 }
 
 ol{
@@ -16,7 +23,6 @@ ol{
  text-transform: uppercase;
  flex: 1 1 auto;
  border-left: 2px solid lightgrey;
- 
 }
 
 ol:first-child{
@@ -26,17 +32,16 @@ ol:first-child{
 li{
  flex: 1;
  text-align: center;
+ align-content: center;
 }
 
 li:hover{
  cursor: pointer;
 }
 
-h1{
- display: flex;
- flex-direction: column;
- align-items: center;
- font-size: 5rem;
+.headerTitle{
+ font-size: 2rem;
+ margin: 0 2%;
  font-family: "MS Madi",
   serif;
  font-weight: normal;
