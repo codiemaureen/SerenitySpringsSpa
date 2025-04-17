@@ -2,7 +2,8 @@
  display: flex;
  flex-direction: column;
  text-align: center;
- padding-top: 45vh;
+ background-color: darkgreen;
+ width: 100%;
 }
 
 .services{
@@ -15,10 +16,6 @@
 }
 
 @media screen and (max-width: 900px) {
- .services-container {
-   padding-top: 30vh;
-  }
-
  .services{ 
   justify-content: center;
   flex-wrap: wrap;

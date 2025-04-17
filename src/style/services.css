@@ -2,9 +2,13 @@
   border: 2px solid green;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 1%;
   margin: 1%;
   align-items: center;
+  background-color: white;
+  justify-content: space-evenly;
+  height: 80vh;
 }
 
 .service-title{
@@ -13,21 +17,18 @@
 .service-image{
  padding-left: 0;
  margin: 0;
- width: 50%;
- height: 50vh;
+ max-height: 50%;
+ aspect-ratio: 10/16;
 }
 
 .service-description{
-  height: 20vh;
-  margin-bottom: 10%;
-  padding: 1%;
+  padding: 2%;
+  max-height: 20%;
 }
 
 a.book-btn{
+  padding: 1%;
   background-color: darkgreen;
   color: white;
   font-weight: 800;
-  padding: 2%;
-  justify-self: flex-end;
-  margin-bottom: 5%;
 }
