@@ -14,8 +14,9 @@ const NavBar = () => {
   return (
    <div id='navBar'>
     <nav>
-    <p className='headerTitle'>Serenity Springs Spa</p>
-    {navItems.map((items) => (
+    <p className='headerTitle'><a href=''>Serenity Springs Spa</a></p>
+    {navItems.map((items, i) => (
+      
       <ol>
         <li><a href={items.link}>{items.title}</a></li>
       </ol>
