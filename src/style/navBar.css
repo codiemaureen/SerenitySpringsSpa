@@ -25,7 +25,7 @@ ol{
  border-left: 2px solid lightgrey;
 }
 
-ol:first-child{
+ol:first-child {
  border-left: none;
 }
 
@@ -48,9 +48,16 @@ li:hover{
  text-shadow: 2px 1px 2px black;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 810px) {
 .headerTitle{
   text-align: center;
   width: 100%;
+ }
+ ol:nth-child(2){
+  border-left: none;
+ }
+ ol:last-child {
+  width: 100%;
+  border-left: none;
  }
 }

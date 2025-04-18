@@ -1,18 +1,23 @@
 import '../style/navBar.css'
 import Button from './Button';
 import { BsBag } from "react-icons/bs";
-import Header from './Header';
 
 
 const NavBar = () => {
- let navItems = ['home', 'about', 'services', 'lookbook', 'news', <Button title={'cart'} icon={<BsBag color='white'/>} /> , 'Book Online']
+  let navItems = [
+    {title:'home', link: ''}, 
+    {title:'about', link:"#aboutContainer" } , 
+    {title: 'services', link: "#servicesContainer" }, 
+    {title: <Button title="Cart" icon={<BsBag color="white" />} />, link: null },
+    {title: 'book online', link: null }
+  ]
   return (
    <div id='navBar'>
     <nav>
     <p className='headerTitle'>Serenity Springs Spa</p>
     {navItems.map((items) => (
       <ol>
-      <li>{items}</li>
+        <li><a href={items.link}>{items.title}</a></li>
       </ol>
     ))}
     </nav>
