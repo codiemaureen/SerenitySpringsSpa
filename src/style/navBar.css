@@ -1,28 +1,28 @@
 #navBar{
- position: fixed;
- z-index: 2000;
- top: 0;
- left: 0;
- margin: 0; 
- width: 100%;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  margin: 0; 
+  width: 100%;
 }
 
 nav{
- background-color: darkgreen;
- color: black;
- font-weight: bold;
- display: flex;
- flex-wrap: wrap;
- padding-top: 3vh;
+  background-color: darkgreen;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3vh;
 }
 
 ol{
- padding: 0 3%;
- display: flex;
- list-style: none;
- text-transform: uppercase;
- flex: 1 1 auto;
- border-left: 2px solid lightgrey;
+  padding: 0 1vw;
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  flex: 1 1 auto;
+  border-left: 2px solid lightgrey;
 }
 
 ol:first-child {
@@ -53,11 +53,10 @@ li:hover{
   text-align: center;
   width: 100%;
  }
- ol:nth-child(2){
-  border-left: none;
+ ol{
+  font-size: 2vw;
  }
- ol:last-child {
-  width: 100%;
+ ol:nth-child(2){
   border-left: none;
  }
 }
