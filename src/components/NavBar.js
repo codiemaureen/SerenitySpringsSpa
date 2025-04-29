@@ -14,13 +14,15 @@ const NavBar = () => {
   return (
    <div id='navBar'>
     <nav>
-    <p className='headerTitle'><a href=''>Serenity Springs Spa</a></p>
-    {navItems.map((items, i) => (
-      
-      <ol>
-        <li><a href={items.link}>{items.title}</a></li>
-      </ol>
-    ))}
+      {/* hide until header image is out of view */}
+      <p className='headerTitle'><a href=''>Serenity Springs Spa</a></p>
+      {/* Add a menu dropdown for mobile */}
+      {navItems.map((items, i) => (
+        
+        <ol>
+          <li><a href={items.link}>{items.title}</a></li>
+        </ol>
+      ))}
     </nav>
    </div>
   )
