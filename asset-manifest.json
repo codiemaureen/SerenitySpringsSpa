@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SerenitySpringsSpa/static/css/main.d3add38c.css",
+    "main.css": "/SerenitySpringsSpa/static/css/main.41a269e2.css",
     "main.js": "/SerenitySpringsSpa/static/js/main.c466c826.js",
     "static/js/453.7fcfe6d9.chunk.js": "/SerenitySpringsSpa/static/js/453.7fcfe6d9.chunk.js",
     "static/media/hair.jpg": "/SerenitySpringsSpa/static/media/hair.89b0fee12815995e6198.jpg",
@@ -9,12 +9,12 @@
     "static/media/nails.jpg": "/SerenitySpringsSpa/static/media/nails.70ab203d6afbc682bdd3.jpg",
     "static/media/makeup.jpg": "/SerenitySpringsSpa/static/media/makeup.2e937ade5a0bc54b3157.jpg",
     "index.html": "/SerenitySpringsSpa/index.html",
-    "main.d3add38c.css.map": "/SerenitySpringsSpa/static/css/main.d3add38c.css.map",
+    "main.41a269e2.css.map": "/SerenitySpringsSpa/static/css/main.41a269e2.css.map",
     "main.c466c826.js.map": "/SerenitySpringsSpa/static/js/main.c466c826.js.map",
     "453.7fcfe6d9.chunk.js.map": "/SerenitySpringsSpa/static/js/453.7fcfe6d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3add38c.css",
+    "static/css/main.41a269e2.css",
     "static/js/main.c466c826.js"
   ]
 }
