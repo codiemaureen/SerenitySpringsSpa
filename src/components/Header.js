@@ -1,4 +1,5 @@
 import '../style/header.css';
+import Button from './Button';
 
 const Header = () => {
   return (
