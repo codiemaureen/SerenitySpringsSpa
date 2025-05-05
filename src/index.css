@@ -13,7 +13,7 @@ body {
   top: 0;
   left: 0;
   height: 110vh;
-  width: 100vw;
+  width: 110vw;
   background-image: url('../public/images/pexels-heyho-7750104.jpg');
   background-size: cover;
   background-position: center;
@@ -32,7 +32,7 @@ a:visited{
 .app {
   position: relative;
   z-index: 1;
-  padding: .25rem;
+  width: 100%;
 }
 
 h2{
