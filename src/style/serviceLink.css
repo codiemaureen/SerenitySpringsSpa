@@ -1,23 +1,23 @@
 #servicesContainer{
- display: flex;
- flex-direction: column;
- text-align: center;
- background-color: darkgreen;
- width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(25, 62, 4, 0.795);
+  width: 100%;
 }
 
 .services{
- display: flex;
- justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .services-header{
   margin: 0;
 }
 
-@media screen and (max-width: 900px) {
- .services{ 
-  justify-content: center;
-  flex-wrap: wrap;
- }
+@media screen and (max-width: 1080px) {
+  .services{ 
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
