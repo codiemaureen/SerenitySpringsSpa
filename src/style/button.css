@@ -9,3 +9,7 @@ a, a:visited{
  all: unset;
  background-color: transparent;
 }
+
+.btn:hover{
+ cursor: pointer;
+}
