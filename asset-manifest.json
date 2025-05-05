@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/SerenitySpringsSpa/static/css/main.d9ac90e9.css",
-    "main.js": "/SerenitySpringsSpa/static/js/main.e8c15220.js",
+    "main.css": "/SerenitySpringsSpa/static/css/main.d3add38c.css",
+    "main.js": "/SerenitySpringsSpa/static/js/main.c466c826.js",
     "static/js/453.7fcfe6d9.chunk.js": "/SerenitySpringsSpa/static/js/453.7fcfe6d9.chunk.js",
+    "static/media/hair.jpg": "/SerenitySpringsSpa/static/media/hair.89b0fee12815995e6198.jpg",
     "static/media/pexels-heyho-7750104.jpg": "/SerenitySpringsSpa/static/media/pexels-heyho-7750104.5972cbc431a30279c197.jpg",
-    "static/media/makeup.jpg": "/SerenitySpringsSpa/static/media/makeup.6ad08fd693ab1ac278b6.jpg",
-    "static/media/hair.jpg": "/SerenitySpringsSpa/static/media/hair.3ff8d318d9e023e0ac3c.jpg",
     "static/media/pexels-karolina-grabowska-6954972.jpg": "/SerenitySpringsSpa/static/media/pexels-karolina-grabowska-6954972.86a285a6b40689510669.jpg",
-    "static/media/nails.jpg": "/SerenitySpringsSpa/static/media/nails.d131bbddb9ab71d8dbe2.jpg",
+    "static/media/nails.jpg": "/SerenitySpringsSpa/static/media/nails.70ab203d6afbc682bdd3.jpg",
+    "static/media/makeup.jpg": "/SerenitySpringsSpa/static/media/makeup.2e937ade5a0bc54b3157.jpg",
     "index.html": "/SerenitySpringsSpa/index.html",
-    "main.d9ac90e9.css.map": "/SerenitySpringsSpa/static/css/main.d9ac90e9.css.map",
-    "main.e8c15220.js.map": "/SerenitySpringsSpa/static/js/main.e8c15220.js.map",
+    "main.d3add38c.css.map": "/SerenitySpringsSpa/static/css/main.d3add38c.css.map",
+    "main.c466c826.js.map": "/SerenitySpringsSpa/static/js/main.c466c826.js.map",
     "453.7fcfe6d9.chunk.js.map": "/SerenitySpringsSpa/static/js/453.7fcfe6d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9ac90e9.css",
-    "static/js/main.e8c15220.js"
+    "static/css/main.d3add38c.css",
+    "static/js/main.c466c826.js"
   ]
 }
