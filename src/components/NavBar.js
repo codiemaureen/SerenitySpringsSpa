@@ -8,7 +8,7 @@ const NavBar = () => {
     {title:'home', link: ''}, 
     {title:'about', link:"#aboutContainer" } , 
     {title: 'services', link: "#servicesContainer" }, 
-    {title: <Button title="Cart" icon={<BsBag color="white" />} />, link: null },
+    {title: <Button icon={<BsBag color="white" />} />, link: null },
     {title: 'book online', link: null }
   ]
   return (
