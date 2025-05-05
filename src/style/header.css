@@ -1,18 +1,18 @@
 #header{
- width: 100%;
- height: 90vh;
- margin: 0;
- padding: 0;
- display: flex;
- flex-direction: column;
- justify-content: center;
- background-color: rgba(34, 35, 34, 0.401);
+  width: 100%;
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(34, 35, 34, 0.401);
 }
 
 .page-header{
- font-size: 8vw;
- text-align: center;
- font-family: "MS Madi",
+  font-size: 8vw;
+  text-align: center;
+  font-family: "MS Madi",
   serif;
   font-weight: normal;
   text-shadow: 5px 2px 5px black;
