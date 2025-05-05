@@ -40,7 +40,7 @@ h2{
 
 
 @media (min-width: 1080px) {
-  .hero-section {
-    background-attachment: scroll;
+  body{
+    background-attachment: fixed;
   }
 }
