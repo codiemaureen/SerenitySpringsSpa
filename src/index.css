@@ -6,6 +6,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(../src/images/pexels-heyho-7750104.jpg);
+  background-size: cover;
+  background-position: 50% 75%;
+  background-attachment: fixed;
 }
 
 code {
