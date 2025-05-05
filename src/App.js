@@ -33,13 +33,16 @@ function App() {
   ]);
 
   return (
-    <div className="app">
-      <NavBar />
-      <Header />
-      <Servicelink services={services}/>
-      <AboutUs />
-      <Footer />
-    </div>
+    <>
+      <div className="fixed-background" />
+      <div className="app">
+        <NavBar />
+        <Header />
+        <Servicelink services={services}/>
+        <AboutUs />
+        <Footer />
+      </div>
+    </>
   );
 }
 

@@ -6,12 +6,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(../src/images/pexels-heyho-7750104.jpg);
+}
+
+.fixed-background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 110vh;
+  width: 100vw;
+  background-image: url('../public/images/pexels-heyho-7750104.jpg');
   background-size: cover;
-  background-position: bottom;
-  height: 100vh;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
 }
 
 code {
@@ -23,11 +29,10 @@ a:visited{
   text-decoration: none;
 }
 
-.app{
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  overflow-x: hidden;
+.app {
+  position: relative;
+  z-index: 1;
+  padding: .25rem;
 }
 
 h2{
@@ -38,14 +43,4 @@ h2{
   text-shadow: 2px 1px 2px black;
   margin: 0;
   padding: 0;
-}
-
-
-@media (max-width: 1080px) {
-  body{
-    background-attachment: fixed;
-  }
-  .app{
-    z-index: 1;
-  }
 }
